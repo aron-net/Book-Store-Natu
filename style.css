@@ -13,6 +13,7 @@ h1 {
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: normal;
+    font-size: 50px;
 }
 
 .header-container {
@@ -25,9 +26,8 @@ h1 {
 .header-logo {
     margin: auto;
     width: 80%;
-    padding: 7%;
+    padding: 9%;
     color: rgb(171, 154, 154);
-    font-size: 40px;
 }
 
 nav {
@@ -80,7 +80,7 @@ nav {
     margin: 15px;
     padding: 20px;
     display: flex;
-    height: 50vh;
+    height: 40vh;
 }
 .aside-container .section_special_offers,
 .aside-container .section_new_books {
@@ -146,17 +146,16 @@ nav {
 }
 
 .book-store {
-    width: 45%;
-    margin: 10px;
-    padding: 10px;
+    width: 48%;
+    margin: 5px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 10px solid transparent;
 }
 
 .book-store h2 {
-    padding: 20px;
+    padding: 10px;
     font-size: 28px;
     text-align: center;
     font-weight: bold;
