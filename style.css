@@ -222,6 +222,19 @@ thead {
     padding: 20px;
 }
 
+.addBook
+ div {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.addBook div img {
+    width: 40%;
+    height: 70vh;
+    border-radius: 10px;
+
+}
 .new_book_form {
     display: flex;
     flex-direction: column;
