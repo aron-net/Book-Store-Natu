@@ -1,4 +1,4 @@
-# Book Store Readme
+# Book Store
 
 This repository contains files for a simple Book Store website comprising HTML, CSS, and JavaScript. Below is an overview of the files and their functionalities:
 
@@ -46,7 +46,7 @@ This repository contains files for a simple Book Store website comprising HTML, 
 - You can check if Git is installed by running the following command in the terminal: 
 
 ```
-  $ git --version
+  git --version
 ```
 
 ### Setup
