@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header header-container">
+        <h1 class="header-logo">Awesome Book Store</h1>
+    </header>
+    <nav>
+        <ul class="navBar">
+            <li><a href="/">Home</a></li>
+            <li>List</li>
+            <li>Add new</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main class="main_container">
+        <aside class="aside-container">
+            <section class="section_special_offers">
+                <h2>Sepcial Offers</h2>
+                <div id="special_offers">
+                    <p>
+                        <span>25%</span> discounts for
+                        <br> purchase over $50
+                    </p>
+                    <a href="subpage.html" class="read_more">Read more...</a>
+                </div>
+            </section>
+            <section class="section_new_books">
+                <h2>New Books</h2>
+                <div id="new_books">
+                    <ol>
+                        <li>Asmara: Africa's Secret Modernist City</li>
+                        <li>Asmara: Africa's Jewel of Modernity</li>
+                        <li>Woldeab Woldemariam: A Visionary Eritrean Patriot, a Biography</li>
+                    </ol>
+                    <a href="subpage.html" class="read_more">Read more...</a>
+                </div>
+            </section>
+        </aside>
+
+        <article class="book-store">
+            <h2 class="book-store-title">Welcome to Our Book Store</h2>
+            <p>Welcome to our book store, where the pages of knowledge and imagination come alive! We are passionate
+                about books and the impact they have on our lives. Our store is filled with a diverse selection of
+                books, from bestsellers to classics, and everything in between. Our staff are book lovers themselves and
+                are always happy to help you find the perfect book for you. Whether you're looking for a new release or
+                a timeless classic, we have something for everyone.</p>
+            <p>We also have a special section for book clubs, where you can find books that are perfect for discussion
+                and debate. Our staff will be happy to help you find the perfect book for your club. In addition to our
+                extensive book selection, we also have a variety of stationery and gifts for book lovers. From bookmarks
+                to booklights, we have everything you need to enhance your reading experience.</p>
+            <p>We also host a variety of events, including book signings, author talks, and children's storytime. Check
+                our website for upcoming events and join us for a fun and engaging experience. At our book store, we
+                believe that books have the power to change lives. That's why we are committed to supporting local
+                authors and publishers, and we work hard to ensure that our store is a place where readers can discover
+                new books and authors.</p>
+            <p>So, come and visit us today and immerse yourself in the world of books. We look forward to seeing you
+                soon!</p>
+        </article>
+    </main>
+    <section class="bookList">
+        <h2>All Awesome Books</h2>
+        <table id="bookList"></table>
+    </section>
+    <section class="addBook">
+        <h2>Add New Book </h2>
+        <form class="new_book_form"  id="newBookForm">
+            <div class="container-div">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <input type="text" id="author" name="author" placeholder="author" required>
+            <div class="container-div">
+                <label for="genre">Genre</label>
+                <select id="genre" name="genre" required>
+                    <option value="">Select a genre</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="fantasy">Fantasy</option>
+                </select>
+            </div>
+            <label for="year">Year:</label>
+            <div id="yearRadioButtons"></div><br>
+            <input type="submit" placeholder="Add Book">
+        </form>
+    </section>
+    <section class="contact">
+        <h2>Contact information</h2>
+        <p class="contact-p">Do you have any question or you just want to say "Hello"?</p>
+        <p class="contact-p">You can reach out to us!</p>
+        <ul class="contact-ul">
+            <li class="contact-li">Our email: mail@mail.com</li>
+            <li class="contact-li">Our phone number: 0043586534422</li>
+            <li class="contact-li">Our address: Street-name 22 84503 City. Country</li>
+        </ul>
+    </section>
+    <footer>
+        <p id="copyright">
+            &copy; <span id="year"></span> Awesome Book Store. All rights reserved.
+        </p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    background-image: url('./images/templatemo_title_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;  
+}
+
+.header-logo {
+    margin: auto;
+    width: 80%;
+    padding: 7%;
+    color: rgb(171, 154, 154);
+    font-size: 40px;
+}
+
+nav {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    background-color: #3E2001; 
+}
+
+.navBar {
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 55%;
+    padding: 20px 0px;
+}
+
+.navBar li {
+    color: rgb(205, 201, 201);
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: rgb(205, 201, 201);
+    font-size: 20px;
+}
+
+.navBar li a:hover {
+    color: rgb(156, 100, 100);
+}
+
+.bookList,
+.addBook,
+.contact {
+    display: none;
+}
+
+.main_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.aside-container {
+    border: 10px solid transparent;
+    border-image: url('./images/border.png') 30 round;
+    background-color: #1b3620;
+    width: 55%;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    height: 50vh;
+}
+.aside-container .section_special_offers,
+.aside-container .section_new_books {
+    flex: 1; /* Equal width for both sections */
+    margin: 0 10px; /* Spacing between sections */
+}
+
+.section_special_offers {
+    border-right: 5px solid rgba(253, 252, 251, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.section_special_offers h2 {
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#special_offers {
+    text-align: center; /* Aligns its children center horizontally */
+}
+
+#special_offers p {
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.read_more {
+    text-decoration: none;
+    color: white;
+}
+
+.section_new_books {
+    border-left: 5px solid rgba(253, 252, 251, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.section_new_books h2 {
+    color: white;
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_new_books ol {
+    padding: 25px;
+    color: white;
+    line-height: 25px;
+    display: inline-block;
+    text-align: left;
+}
+
+.section_new_books ol li {
+    text-align: left;
+}
+
+.book-store {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 10px solid transparent;
+}
+
+.book-store h2 {
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.book-store p {
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 18px;
+}
+
+footer {
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url('./images/border.png') 30 stretch;
+    width: 100%;
+    background-color: #3E2001; 
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.bookList h2 {
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+thead {
+    background-color: #4a3f35;
+    padding: 15px;
+    color: white;
+}
+
+.th {
+    padding: 15px;
+}
+.tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Set the background color for odd rows */
+}
+
+.tbody tr:nth-child(even) {
+    background-color: #ffffff; /* Set the background color for even rows */
+}
+
+.tbody {
+    text-align: center;
+}
+
+.td {
+    text-align: left;
+    padding: 25px;
+}
+
+.addBook {
+    text-align: center;
+    padding: 20px;
+}
+
+.new_book_form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.container-div {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.container-div label {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.container-div input[type="text"] {
+    border-radius: 10px;
+    padding: 6px;
+    width: 65%;
+    text-align: center;
+}
+
+.new_book_form input[type="text"] {
+    border-radius: 8px;
+    padding: 6px;
+    margin: 10px;
+    text-align: center;
+    width: 96%;
+}
+
+.new_book_form label[for="year"] {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container-div select {
+    border-radius: 10px;
+    padding: 6px;
+    width: 65%;
+    text-align: center;
+    margin: 10px;
+}
+
+
+#yearRadioButtons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+
+/* Style for individual radio buttons */
+#yearRadioButtons input[type="radio"] {
+    display: none; /* Hide the default radio button */
+}
+
+/* Style for the labels */
+#yearRadioButtons label {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Style for the labels when hovered */
+#yearRadioButtons label:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style for the labels of selected radio buttons */
+#yearRadioButtons input[type="radio"]:checked + label {
+    background-color: #a0a0a0;
+    color: white;
+}
+
+.new_book_form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    margin: 16px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px;
+    border-radius: 40%;
+    box-shadow: 0 0 50px #ccc;
+  width: 45%;
+  margin: auto;
+}
+
+.contact h2 {
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact p {
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 18px;
+    padding-left: 10rem;
+    line-height: 2rem;
+}
+
+.contact-ul {
+   text-align: left;
+   padding-left: 14rem;
+   line-height: 2rem;
+}   
