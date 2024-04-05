@@ -79,3 +79,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 Enjoy exploring the Book Store! 📚
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
