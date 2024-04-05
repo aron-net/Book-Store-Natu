@@ -3,6 +3,18 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
 .header-container {
     background-image: url('./images/templatemo_title_bg.jpg');
     background-repeat: no-repeat;
